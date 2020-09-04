@@ -1,0 +1,42 @@
+# Compile of AAC2M1H1.vhd failed with 6 errors.
+# Compile of AAC2M1H1_tb.vhdp was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of AAC2M1H1.vhd failed with 6 errors.
+# Compile of AAC2M1H1.vhd failed with 6 errors.
+# Compile of AAC2M1H1_tb.vhdp was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of AAC2M1H1.vhd was successful.
+vsim -gui work.aac2m1h1_tb
+# vsim -gui work.aac2m1h1_tb 
+# Start time: 16:47:19 on Sep 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1h1_tb(behavioral)
+# Loading work.fulladd(behavioral)
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position end  sim:/aac2m1h1_tb/a_tb
+add wave -position end  sim:/aac2m1h1_tb/b_tb
+add wave -position end  sim:/aac2m1h1_tb/cin_tb
+add wave -position end  sim:/aac2m1h1_tb/sum_tb
+add wave -position end  sim:/aac2m1h1_tb/cout_tb
+add wave -position end  sim:/aac2m1h1_tb/carry_sum
+add wave -position end  sim:/aac2m1h1_tb/ValidCheck
+add wave -position end  sim:/aac2m1h1_tb/ROM
+add wave -position end  sim:/aac2m1h1_tb/delay
+add wave -position end  sim:/aac2m1h1_tb/Points
+run -all
+# ** Note: This simulation is complete
+#    Time: 100 ns  Iteration: 0  Instance: /aac2m1h1_tb
+# End time: 16:49:25 on Sep 04,2020, Elapsed time: 0:02:06
+# Errors: 20, Warnings: 0

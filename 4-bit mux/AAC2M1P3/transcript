@@ -1,0 +1,193 @@
+# Compile of AAC2M1P3.vhd was successful.
+# Compile of AAC2M1P3_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AAC2M1P3.vhd failed with 2 errors.
+# Compile of AAC2M1P3.vhd failed with 2 errors.
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3.vhd failed with 2 errors.
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3.vhd failed with 1 errors.
+# Compile of AAC2M1P3.vhd was successful.
+vsim -gui work.aac2m1p3_tb
+# vsim -gui work.aac2m1p3_tb 
+# Start time: 16:23:55 on Sep 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p3_tb(behavioral)
+# Loading work.find_errors(not_good)
+add wave -position end  sim:/aac2m1p3_tb/a_tb
+add wave -position end  sim:/aac2m1p3_tb/c_tb
+add wave -position end  sim:/aac2m1p3_tb/b_tb
+add wave -position end  sim:/aac2m1p3_tb/ValidCheck
+add wave -position end  sim:/aac2m1p3_tb/ROM
+add wave -position end  sim:/aac2m1p3_tb/delay
+add wave -position end  sim:/aac2m1p3_tb/Points
+# Compile of AAC2M1P3.vhd was successful.
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: This simulation is complete
+#    Time: 10260 ns  Iteration: 0  Instance: /aac2m1p3_tb
+run
+run
+run
+# End time: 16:34:41 on Sep 04,2020, Elapsed time: 0:10:46
+# Errors: 7, Warnings: 0

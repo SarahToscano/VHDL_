@@ -1,0 +1,52 @@
+# Compile of AAC2M1P4.vhd was successful.
+# Compile of AAC2M1P4_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m1p4_tb
+# vsim -gui work.aac2m1p4_tb 
+# Start time: 16:35:45 on Sep 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p4_tb(behavioral)
+# Loading work.majority(behavioral)
+add wave -position end  sim:/aac2m1p4_tb/a_tb
+add wave -position end  sim:/aac2m1p4_tb/b_tb
+add wave -position end  sim:/aac2m1p4_tb/c_tb
+add wave -position end  sim:/aac2m1p4_tb/y_tb
+add wave -position end  sim:/aac2m1p4_tb/ValidCheck
+add wave -position end  sim:/aac2m1p4_tb/ROM
+add wave -position end  sim:/aac2m1p4_tb/delay
+add wave -position end  sim:/aac2m1p4_tb/Points
+run -all
+# ** Error: Error
+#    Time: 60 ns  Iteration: 0  Instance: /aac2m1p4_tb
+# ** Note: This simulation is complete
+#    Time: 100 ns  Iteration: 0  Instance: /aac2m1p4_tb
+# Compile of AAC2M1P4.vhd was successful.
+vsim -gui work.aac2m1p4_tb
+# End time: 16:38:17 on Sep 04,2020, Elapsed time: 0:02:32
+# Errors: 4, Warnings: 0
+# vsim -gui work.aac2m1p4_tb 
+# Start time: 16:38:17 on Sep 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p4_tb(behavioral)
+# Loading work.majority(behavioral)
+add wave -position end  sim:/aac2m1p4_tb/a_tb
+add wave -position end  sim:/aac2m1p4_tb/b_tb
+add wave -position end  sim:/aac2m1p4_tb/c_tb
+add wave -position end  sim:/aac2m1p4_tb/y_tb
+add wave -position end  sim:/aac2m1p4_tb/ValidCheck
+add wave -position end  sim:/aac2m1p4_tb/ROM
+add wave -position end  sim:/aac2m1p4_tb/delay
+add wave -position end  sim:/aac2m1p4_tb/Points
+run -all
+# ** Note: This simulation is complete
+#    Time: 100 ns  Iteration: 0  Instance: /aac2m1p4_tb
+# End time: 16:42:20 on Sep 04,2020, Elapsed time: 0:04:03
+# Errors: 1, Warnings: 0

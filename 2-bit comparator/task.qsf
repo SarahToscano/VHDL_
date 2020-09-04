@@ -1,0 +1,9 @@
+set_global_assignment -name FAMILY "Cyclone 10 GX"
+set_global_assignment -name TOP_LEVEL_ENTITY task
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 19.4.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:16:26  SEPTEMBER 04, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "19.4.0 Pro Edition"
+set_global_assignment -name VHDL_FILE AAC2M1P1.vhd
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name DEVICE 10CX220YF780I5G
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1

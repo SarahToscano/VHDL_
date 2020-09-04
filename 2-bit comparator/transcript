@@ -1,0 +1,127 @@
+# Compile of AAC2M1P1.vhd was successful.
+# Compile of AAC2M1P1_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of AAC2M1P1.vhd was successful.
+# Compile of AAC2M1P1_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.comparator2
+# vsim work.comparator2 
+# Start time: 00:19:56 on Sep 04,2020
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/HP/Downloads/AAC2M1P1/work.comparator2' has no architecture.
+# Error loading design
+# End time: 00:19:57 on Sep 04,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim work.comparator2
+# vsim work.comparator2 
+# Start time: 00:20:00 on Sep 04,2020
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/HP/Downloads/AAC2M1P1/work.comparator2' has no architecture.
+# Error loading design
+# End time: 00:20:00 on Sep 04,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.comparator2
+# vsim work.comparator2 
+# Start time: 00:20:02 on Sep 04,2020
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/HP/Downloads/AAC2M1P1/work.comparator2' has no architecture.
+# Error loading design
+# End time: 00:20:03 on Sep 04,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim work.aac2m1p1_tb
+# vsim work.aac2m1p1_tb 
+# Start time: 00:20:04 on Sep 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p1_tb(behavioral)
+# ** Error: (vsim-3173) Entity 'C:/Users/HP/Downloads/AAC2M1P1/work.comparator2' has no architecture.
+# Load interrupted
+# Error loading design
+# End time: 00:20:04 on Sep 04,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim work.aac2m1p1_tb
+# vsim work.aac2m1p1_tb 
+# Start time: 00:20:16 on Sep 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p1_tb(behavioral)
+# ** Error: (vsim-3173) Entity 'C:/Users/HP/Downloads/AAC2M1P1/work.comparator2' has no architecture.
+# Load interrupted
+# Error loading design
+# End time: 00:20:17 on Sep 04,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim work.aac2m1p1_tb(behavioral)
+# vsim work.aac2m1p1_tb(behavioral) 
+# Start time: 00:20:18 on Sep 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p1_tb(behavioral)
+# ** Error: (vsim-3173) Entity 'C:/Users/HP/Downloads/AAC2M1P1/work.comparator2' has no architecture.
+# Load interrupted
+# Error loading design
+# End time: 00:20:19 on Sep 04,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# Compile of AAC2M1P1.vhd was successful.
+# Compile of AAC2M1P1_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.comparator2
+# vsim work.comparator2 
+# Start time: 00:24:37 on Sep 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.comparator2(comp)
+add wave -position end sim:/comparator2/*
+run
+run
+run
+run
+force -freeze sim:/comparator2/A 2'h00 0
+force -freeze sim:/comparator2/B 2'h01 0
+# Compile of AAC2M1P1.vhd was successful.
+run
+run
+force -freeze sim:/comparator2/B 00 0
+# Compile of AAC2M1P1.vhd was successful.
+run
+vsim work.aac2m1p1_tb
+# End time: 00:31:26 on Sep 04,2020, Elapsed time: 0:06:49
+# Errors: 20, Warnings: 0
+# vsim work.aac2m1p1_tb 
+# Start time: 00:31:26 on Sep 04,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m1p1_tb(behavioral)
+# Loading work.comparator2(comp)
+add wave -position end  sim:/aac2m1p1_tb/a_tb
+add wave -position end  sim:/aac2m1p1_tb/b_tb
+add wave -position end  sim:/aac2m1p1_tb/c_tb
+add wave -position end  sim:/aac2m1p1_tb/ValidCheck
+add wave -position end  sim:/aac2m1p1_tb/ROM
+add wave -position end  sim:/aac2m1p1_tb/delay
+add wave -position end  sim:/aac2m1p1_tb/Points
+run
+run
+run
+# ** Note: This simulation is complete
+#    Time: 180 ns  Iteration: 0  Instance: /aac2m1p1_tb
+run
+run
+run
+run
+run
+run
+# End time: 00:58:03 on Sep 04,2020, Elapsed time: 0:26:37
+# Errors: 28, Warnings: 0

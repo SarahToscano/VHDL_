@@ -1,0 +1,19 @@
+C:/Users/HP/Downloads/AAC2M1P1/AAC2M1P1.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/HP/Downloads/AAC2M1P1/AAC2M1P1.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comparator2
+-- Compiling architecture comp of comparator2
+
+} {} {}} C:/Users/HP/Downloads/AAC2M1P1/AAC2M1P1_tb.vhdp {1 {vcom -work work -2002 -explicit -stats=none C:/Users/HP/Downloads/AAC2M1P1/AAC2M1P1_tb.vhdp
+Model Technology ModelSim - Intel FPGA Edition vcom 2019.2 Compiler 2019.04 Apr 17 2019
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity AAC2M1P1_tb
+-- Compiling architecture behavioral of AAC2M1P1_tb
+
+} {} {}}

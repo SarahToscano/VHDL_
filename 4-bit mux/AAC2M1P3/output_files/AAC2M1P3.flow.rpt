@@ -1,0 +1,86 @@
+Flow report for AAC2M1P3
+Fri Sep  4 01:00:03 2020
+Quartus Prime Version 19.4.0 Build 64 12/04/2019 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-----------------------------------------------------------+
+; Flow Summary                                              ;
++-------------+---------------------------------------------+
+; Flow Status ; Synthesis Failed - Fri Sep  4 01:00:03 2020 ;
++-------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 09/04/2020 01:00:01 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; AAC2M1P3            ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                   ;
++-----------------+-------+---------------+-------------+------------+
+; Assignment Name ; Value ; Default Value ; Entity Name ; Section Id ;
++-----------------+-------+---------------+-------------+------------+
+
+
++--------------------------------------------------+
+; Flow Elapsed Time                                ;
++-------------+--------------+---------------------+
+; Module Name ; Elapsed Time ; Peak Virtual Memory ;
++-------------+--------------+---------------------+
+
+
++---------------------------------------------------------------------------+
+; Flow OS Summary                                                           ;
++-------------+------------------+------------+------------+----------------+
+; Module Name ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++-------------+------------------+------------+------------+----------------+
+; Synthesis   ; DESKTOP-KIQ8G9E  ; Windows 10 ; 10.0       ; x86_64         ;
++-------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_syn --read_settings_files=on --write_settings_files=off AAC2M1P3 -c AAC2M1P3
+
+
+
