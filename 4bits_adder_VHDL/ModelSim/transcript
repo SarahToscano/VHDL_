@@ -1,0 +1,28 @@
+# Compile of Add4.vhd was successful.
+vsim work.add4
+# vsim work.add4 
+# Start time: 22:56:10 on Sep 03,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.add4(rtl)
+add wave -position end  sim:/add4/Data1
+add wave -position end  sim:/add4/Data2
+add wave -position end  sim:/add4/Cin
+add wave -position end  sim:/add4/Cout
+add wave -position end  sim:/add4/Sum
+add wave -position end  sim:/add4/Out5Bit
+force -freeze sim:/add4/Data1 4'h4 0
+force -freeze sim:/add4/Data2 4'h3 0
+force -freeze sim:/add4/Cin 1 0
+# Compile of Add4.vhd was successful.
+run
+force -freeze sim:/add4/Data1 4'h0 0
+force -freeze sim:/add4/Data2 4'hf 0
+# Compile of Add4.vhd was successful.
+run
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/HP/Documents/GitHub/LASID-PROJETOS/4bits_adder_VHDL/ModelSim/wave.do
+# End time: 00:18:37 on Sep 04,2020, Elapsed time: 1:22:27
+# Errors: 9, Warnings: 0
