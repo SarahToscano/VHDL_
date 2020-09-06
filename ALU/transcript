@@ -1,0 +1,37 @@
+# Compile of AAC2M2H1.vhd was successful.
+# Compile of AAC2M2H1_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m2h1_tb
+# vsim -gui work.aac2m2h1_tb 
+# Start time: 04:45:55 on Sep 06,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m2h1_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.alu(rtl)
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position end  sim:/aac2m2h1_tb/OP_tb
+add wave -position end  sim:/aac2m2h1_tb/A_tb
+add wave -position end  sim:/aac2m2h1_tb/B_tb
+add wave -position end  sim:/aac2m2h1_tb/Y_tb
+add wave -position end  sim:/aac2m2h1_tb/ValidCheck
+add wave -position end  sim:/aac2m2h1_tb/ROM
+add wave -position end  sim:/aac2m2h1_tb/delay
+add wave -position end  sim:/aac2m2h1_tb/Points
+run -all
+# ** Note: This simulation is complete
+#    Time: 100 ns  Iteration: 0  Instance: /aac2m2h1_tb
+# End time: 04:51:56 on Sep 06,2020, Elapsed time: 0:06:01
+# Errors: 14, Warnings: 0

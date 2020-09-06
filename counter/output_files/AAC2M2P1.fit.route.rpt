@@ -1,0 +1,130 @@
+Fitter Route Stage Report for AAC2M2P1
+Sun Sep  6 02:19:06 2020
+Quartus Prime Version 19.4.0 Build 64 12/04/2019 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Delay Chain Summary
+  3. Routing Usage Summary
+  4. Route Messages
+  5. Estimated Delay Added for Hold Timing Summary
+  6. Estimated Delay Added for Hold Timing Details
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Delay Chain Summary                                                                                                                                   ;
++------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; Name ; Pin Type ; Input Delay Chain 0 ; Output Delay Chain ; OE Delay Chain ; IO_12_LANE Input Data Delay Chain ; IO_12_LANE Input Strobe Delay Chain ;
++------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+; Q[0] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; Q[1] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; Q[2] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; Q[3] ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; TC   ; Output   ; --                  ; 0                  ; 0              ; --                                ; --                                  ;
+; PE   ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; P[0] ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; CP   ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; SR   ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; CEP  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; CET  ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; P[1] ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; P[2] ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
+; P[3] ; Input    ; 0                   ; --                 ; --             ; --                                ; --                                  ;
++------+----------+---------------------+--------------------+----------------+-----------------------------------+-------------------------------------+
+
+
++-------------------------------------------------------+
+; Routing Usage Summary                                 ;
++------------------------------+------------------------+
+; Routing Resource Type        ; Usage                  ;
++------------------------------+------------------------+
+; Block interconnects          ; 22 / 664,374 ( < 1 % ) ;
+; C27 interconnects            ; 1 / 12,769 ( < 1 % )   ;
+; C4 interconnects             ; 42 / 514,392 ( < 1 % ) ;
+; Direct links                 ; 5 / 664,374 ( < 1 % )  ;
+; Global clocks                ; 1 / 32 ( 3 % )         ;
+; Periphery clocks             ; 0 / 410 ( 0 % )        ;
+; R3 interconnects             ; 10 / 246,936 ( < 1 % ) ;
+; R32 interconnects            ; 0 / 28,257 ( 0 % )     ;
+; R32/C27 interconnect drivers ; 1 / 74,920 ( < 1 % )   ;
+; R6 interconnects             ; 7 / 527,108 ( < 1 % )  ;
+; Regional clock lefts         ; 0 / 8 ( 0 % )          ;
+; Regional clock out bottoms   ; 0 / 8 ( 0 % )          ;
+; Regional clock out tops      ; 0 / 8 ( 0 % )          ;
+; Regional clock rights        ; 0 / 8 ( 0 % )          ;
+; Regional clocks              ; 0 / 8 ( 0 % )          ;
+; Spine buffers                ; 1 / 220 ( < 1 % )      ;
+; Spine clocks                 ; 1 / 330 ( < 1 % )      ;
+; Spine feedthroughs           ; 0 / 224 ( 0 % )        ;
++------------------------------+------------------------+
+
+
++----------------+
+; Route Messages ;
++----------------+
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 19.4.0 Build 64 12/04/2019 SC Pro Edition
+    Info: Processing started: Sun Sep  6 02:18:09 2020
+    Info: System process ID: 6380
+Info: Command: quartus_fit --read_settings_files=on --write_settings_files=off AAC2M2P1 -c AAC2M2P1
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = AAC2M2P1
+Info: Revision = AAC2M2P1
+Info (170193): Fitter routing operations beginning
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+    Info (170200): Optimizations that may affect the design's timing were skipped
+Info (11888): Total time spent on timing analysis during Routing is 0.04 seconds.
+Info (16607): Fitter routing operations ending: elapsed time is 00:00:11
+
+
++------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Summary              ;
++-----------------+----------------------+-------------------+
+; Source Clock(s) ; Destination Clock(s) ; Delay Added in ns ;
++-----------------+----------------------+-------------------+
+; CP              ; CP                   ; 1.5               ;
++-----------------+----------------------+-------------------+
+Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
+This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
+
+
++------------------------------------------------------------+
+; Estimated Delay Added for Hold Timing Details              ;
++-----------------+----------------------+-------------------+
+; Source Register ; Destination Register ; Delay Added in ns ;
++-----------------+----------------------+-------------------+
+; cnt[0]          ; cnt[3]               ; 0.259             ;
+; cnt[2]          ; cnt[3]               ; 0.231             ;
+; cnt[1]          ; cnt[2]               ; 0.197             ;
+; cnt[3]          ; cout                 ; 0.051             ;
++-----------------+----------------------+-------------------+
+Note: This table only shows the top 4 path(s) that have the largest delay added for hold.
+
+

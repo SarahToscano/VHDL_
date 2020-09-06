@@ -1,0 +1,167 @@
+# Compile of AAC2M2P1.vhd failed with 1 errors.
+# Compile of AAC2M2P1.vhd was successful.
+vsim -gui work.aac2m2p1_tb
+# vsim -gui work.aac2m2p1_tb 
+# Start time: 02:04:00 on Sep 06,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m2p1_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aac2m2p1(aac2m2p1_arch)
+add wave -position end  sim:/aac2m2p1_tb/CP_tb
+add wave -position end  sim:/aac2m2p1_tb/SR_tb
+add wave -position end  sim:/aac2m2p1_tb/P_tb
+add wave -position end  sim:/aac2m2p1_tb/PE_tb
+add wave -position end  sim:/aac2m2p1_tb/CEP_tb
+add wave -position end  sim:/aac2m2p1_tb/CET_tb
+add wave -position end  sim:/aac2m2p1_tb/Q_tb
+add wave -position end  sim:/aac2m2p1_tb/TC_tb
+add wave -position end  sim:/aac2m2p1_tb/simend
+add wave -position end  sim:/aac2m2p1_tb/ValidCheck
+add wave -position end  sim:/aac2m2p1_tb/ROM
+add wave -position end  sim:/aac2m2p1_tb/delay
+add wave -position end  sim:/aac2m2p1_tb/Points
+run -all
+# ** Note: LOAD ERROR
+#    Time: 185 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 205 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 245 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 265 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 285 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 305 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 325 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 345 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 365 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 385 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 405 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 425 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 445 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 465 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 485 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: ROLL OVER ERROR
+#    Time: 505 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: This simulation is complete
+#    Time: 525 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# Compile of AAC2M2P1.vhd failed with 1 errors.
+# Compile of AAC2M2P1.vhd was successful.
+vsim -gui work.aac2m2p1_tb
+# End time: 02:09:18 on Sep 06,2020, Elapsed time: 0:05:18
+# Errors: 3, Warnings: 0
+# vsim -gui work.aac2m2p1_tb 
+# Start time: 02:09:18 on Sep 06,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m2p1_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aac2m2p1(aac2m2p1_arch)
+add wave -position end  sim:/aac2m2p1_tb/CP_tb
+add wave -position end  sim:/aac2m2p1_tb/SR_tb
+add wave -position end  sim:/aac2m2p1_tb/P_tb
+add wave -position end  sim:/aac2m2p1_tb/PE_tb
+add wave -position end  sim:/aac2m2p1_tb/CEP_tb
+add wave -position end  sim:/aac2m2p1_tb/CET_tb
+add wave -position end  sim:/aac2m2p1_tb/Q_tb
+add wave -position end  sim:/aac2m2p1_tb/TC_tb
+add wave -position end  sim:/aac2m2p1_tb/simend
+add wave -position end  sim:/aac2m2p1_tb/ValidCheck
+add wave -position end  sim:/aac2m2p1_tb/ROM
+add wave -position end  sim:/aac2m2p1_tb/delay
+add wave -position end  sim:/aac2m2p1_tb/Points
+run -all
+# ** Note: LOAD ERROR
+#    Time: 185 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 205 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 245 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 265 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 285 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 305 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 325 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 345 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 365 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 385 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 405 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 425 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 445 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 465 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: INCREMENT ERROR
+#    Time: 485 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: ROLL OVER ERROR
+#    Time: 505 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: This simulation is complete
+#    Time: 525 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# Compile of AAC2M2P1.vhd was successful.
+vsim -gui work.aac2m2p1_tb
+# End time: 02:18:27 on Sep 06,2020, Elapsed time: 0:09:09
+# Errors: 3, Warnings: 0
+# vsim -gui work.aac2m2p1_tb 
+# Start time: 02:18:27 on Sep 06,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m2p1_tb(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.aac2m2p1(aac2m2p1_arch)
+add wave -position end  sim:/aac2m2p1_tb/CP_tb
+add wave -position end  sim:/aac2m2p1_tb/SR_tb
+add wave -position end  sim:/aac2m2p1_tb/P_tb
+add wave -position end  sim:/aac2m2p1_tb/PE_tb
+add wave -position end  sim:/aac2m2p1_tb/CEP_tb
+add wave -position end  sim:/aac2m2p1_tb/CET_tb
+add wave -position end  sim:/aac2m2p1_tb/Q_tb
+add wave -position end  sim:/aac2m2p1_tb/TC_tb
+add wave -position end  sim:/aac2m2p1_tb/simend
+add wave -position end  sim:/aac2m2p1_tb/ValidCheck
+add wave -position end  sim:/aac2m2p1_tb/ROM
+add wave -position end  sim:/aac2m2p1_tb/delay
+add wave -position end  sim:/aac2m2p1_tb/Points
+run -all
+# ** Note: TC ERROR
+#    Time: 485 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# ** Note: This simulation is complete
+#    Time: 525 ns  Iteration: 0  Instance: /aac2m2p1_tb
+# End time: 04:30:52 on Sep 06,2020, Elapsed time: 2:12:25
+# Errors: 1, Warnings: 0

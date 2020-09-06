@@ -1,0 +1,32 @@
+# Compile of AAC2M2P2.vhd was successful.
+# Compile of AAC2M2P2_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m2p2_tb
+# vsim -gui work.aac2m2p2_tb 
+# Start time: 04:28:35 on Sep 06,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m2p2_tb(behavioral)
+# Loading work.ram128_32(arch)
+add wave -position end  sim:/aac2m2p2_tb/clock_tb
+add wave -position end  sim:/aac2m2p2_tb/address_tb
+add wave -position end  sim:/aac2m2p2_tb/data_tb
+add wave -position end  sim:/aac2m2p2_tb/wren_tb
+add wave -position end  sim:/aac2m2p2_tb/q_tb
+add wave -position end  sim:/aac2m2p2_tb/simend
+add wave -position end  sim:/aac2m2p2_tb/ValidCheck
+add wave -position end  sim:/aac2m2p2_tb/ROM
+add wave -position end  sim:/aac2m2p2_tb/delay
+add wave -position end  sim:/aac2m2p2_tb/Points
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /aac2m2p2_tb/RAM_Test
+# ** Note: This simulation is complete
+#    Time: 513135 ns  Iteration: 0  Instance: /aac2m2p2_tb
+# End time: 04:31:18 on Sep 06,2020, Elapsed time: 0:02:43
+# Errors: 2, Warnings: 1

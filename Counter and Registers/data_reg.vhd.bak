@@ -1,0 +1,3 @@
+-- Entity
+entity Data_Reg is port (
+	clk, rst, load : in std_logic

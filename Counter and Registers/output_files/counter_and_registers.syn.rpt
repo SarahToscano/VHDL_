@@ -1,0 +1,151 @@
+Synthesis report
+Sat Sep  5 23:36:30 2020
+Quartus Prime Version 19.4.0 Build 64 12/04/2019 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Synthesis Summary
+  2. Synthesis Settings
+  3. Synthesis Source Files Read
+  4. Synthesis Messages
+
+
+
++-----------------------------------------------------------+
+; Synthesis Summary                                         ;
++-----------------------+-----------------------------------+
+; Synthesis Status      ; Failed - Sat Sep  5 23:36:29 2020 ;
+; Revision Name         ; counter_and_registers             ;
+; Top-level Entity Name ; reg_file                          ;
+; Family                ; Cyclone 10 GX                     ;
++-----------------------+-----------------------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Synthesis Settings                                                                                                           ;
++---------------------------------------------------------------------------------+--------------------+-----------------------+
+; Option                                                                          ; Setting            ; Default Value         ;
++---------------------------------------------------------------------------------+--------------------+-----------------------+
+; Device                                                                          ; 10CX220YF780I5G    ;                       ;
+; Top-level entity name                                                           ; reg_file           ; counter_and_registers ;
+; Family name                                                                     ; Cyclone 10 GX      ; Cyclone 10 GX         ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                    ;
+; Enable compact report table                                                     ; Off                ; Off                   ;
+; Design Assistant include IP blocks                                              ; Off                ; Off                   ;
+; Design Assistant limit on reported violations per rule                          ; 500                ; 500                   ;
+; Optimization Mode                                                               ; Balanced           ; Balanced              ;
+; Allow Register Merging                                                          ; On                 ; On                    ;
+; Allow Register Duplication                                                      ; On                 ; On                    ;
+; Allow Register Retiming                                                         ; On                 ; On                    ;
+; Allow RAM Retiming                                                              ; Off                ; Off                   ;
+; Allow DSP Retiming                                                              ; Off                ; Off                   ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto                  ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                   ;
+; Preserve fewer node names                                                       ; On                 ; On                    ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable                ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001          ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993             ;
+; State Machine Processing                                                        ; Auto               ; Auto                  ;
+; Safe State Machine                                                              ; Auto               ; Auto                  ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000                  ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                   ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                    ;
+; DSP Block Balancing                                                             ; Auto               ; Auto                  ;
+; NOT Gate Push-Back                                                              ; On                 ; On                    ;
+; Power-Up Don't Care                                                             ; On                 ; On                    ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                   ;
+; Remove Duplicate Registers                                                      ; On                 ; On                    ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                   ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                   ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                    ;
+; Optimization Technique                                                          ; Balanced           ; Balanced              ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                    ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                   ;
+; Auto ROM Replacement                                                            ; On                 ; On                    ;
+; Auto RAM Replacement                                                            ; On                 ; On                    ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                    ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto                  ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto                  ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                    ;
+; Strict RAM Replacement                                                          ; Off                ; Off                   ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                    ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                   ;
+; Auto Resource Sharing                                                           ; Off                ; Off                   ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                   ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                   ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                   ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                   ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                    ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                   ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                     ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation    ;
+; HDL message level                                                               ; Level2             ; Level2                ;
+; Number of Protected Registers Reported in Synthesis Report                      ; 100                ; 100                   ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000                  ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000                  ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                   ;
+; Clock MUX Protection                                                            ; On                 ; On                    ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                   ;
+; Block Design Naming                                                             ; Auto               ; Auto                  ;
+; SDC constraint protection                                                       ; Off                ; Off                   ;
+; Synthesis Effort                                                                ; Auto               ; Auto                  ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                    ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium                ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto                  ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                    ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                    ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                   ;
+; Disable DSP Negate Inferencing                                                  ; Off                ; Off                   ;
+; Report Parameter Settings                                                       ; On                 ; On                    ;
+; Report Source Assignments                                                       ; On                 ; On                    ;
+; Size of the Latch Report                                                        ; 100                ; 100                   ;
+; Enable State Machines Inference                                                 ; On                 ; On                    ;
+; Enable formal verification support during compilation                           ; Off                ; Off                   ;
+; Size of the PR Initial Conditions Report                                        ; 15                 ; 15                    ;
+; Report PR Initial Values as Errors                                              ; Off                ; Off                   ;
+; Fractal Synthesis                                                               ; Off                ; Off                   ;
++---------------------------------------------------------------------------------+--------------------+-----------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Synthesis Source Files Read                                                                                                                       ;
++----------------------------------+-----------------+------------------------------------------------------------------------------+---------+-----+
+; File Name with User-Entered Path ; File Type       ; File Name with Absolute Path                                                 ; Library ; MD5 ;
++----------------------------------+-----------------+------------------------------------------------------------------------------+---------+-----+
+; data_reg.vhd                     ; User VHDL File  ; C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/Counter and Registers/data_reg.vhd  ;         ;     ;
+; counter.vhd                      ; User VHDL File  ; C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/Counter and Registers/counter.vhd   ;         ;     ;
+; Shift_Reg.vhd                    ; User VHDL File  ; C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/Counter and Registers/Shift_Reg.vhd ;         ;     ;
+; ../reg_file.vhd                  ; User VHDL File  ; C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/reg_file.vhd                        ;         ;     ;
++----------------------------------+-----------------+------------------------------------------------------------------------------+---------+-----+
+
+
++--------------------+
+; Synthesis Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Synthesis
+    Info: Version 19.4.0 Build 64 12/04/2019 SC Pro Edition
+    Info: Processing started: Sat Sep  5 23:36:27 2020
+    Info: System process ID: 14756
+Info: Command: quartus_syn --read_settings_files=on --write_settings_files=off counter_and_registers -c counter_and_registers
+Info: qis_default_flow_script.tcl version: #1
+Info: Initializing Synthesis...
+Info: Project = "counter_and_registers"
+Info: Revision = "counter_and_registers"
+Info: Analyzing source files
+Error (13806): VHDL syntax error at reg_file.vhd(20) near text ( File: C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/reg_file.vhd Line: 20
+Error (13806): VHDL syntax error at reg_file.vhd(23) near text process File: C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/reg_file.vhd Line: 23
+Error (13692): VHDL error at reg_file.vhd(27): object cannot be indexed because it has array_type type rather than array type File: C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/reg_file.vhd Line: 27
+Error (13692): VHDL error at reg_file.vhd(29): object cannot be indexed because it has array_type type rather than array type File: C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/reg_file.vhd Line: 29
+Error (17579): VHDL error at reg_file.vhd(20): missing full type definition for array_type File: C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/reg_file.vhd Line: 20
+Error (13827): Ignored construct reg_file_arch at reg_file.vhd(32) due to previous errors File: C:/Users/HP/Documents/GitHub/VHDL_/VHDL_/reg_file.vhd Line: 32
+Error: Flow failed: 
+Error: Quartus Prime Synthesis was unsuccessful. 7 errors, 0 warnings
+    Error: Peak virtual memory: 401 megabytes
+    Error: Processing ended: Sat Sep  5 23:36:30 2020
+    Error: Elapsed time: 00:00:03
+    Error: System process ID: 14756
+
+

@@ -1,0 +1,35 @@
+# Compile of AAC2M2H2.vhd was successful with warnings.
+# Compile of AAC2M2H2_tb.vhdp was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.aac2m2h2_tb
+# vsim -gui work.aac2m2h2_tb 
+# Start time: 04:52:45 on Sep 06,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.numeric_bit(body)
+# Loading ieee.numeric_bit_unsigned(body)
+# Loading ieee.std_logic_textio(body)
+# Loading work.aac2m2h2_tb(behavioral)
+# Loading work.fifo8x9(rtl)
+add wave -position end  sim:/aac2m2h2_tb/clk_tb
+add wave -position end  sim:/aac2m2h2_tb/rst_tb
+add wave -position end  sim:/aac2m2h2_tb/RdPtrClr_tb
+add wave -position end  sim:/aac2m2h2_tb/WrPtrClr_tb
+add wave -position end  sim:/aac2m2h2_tb/rdinc_tb
+add wave -position end  sim:/aac2m2h2_tb/wrinc_tb
+add wave -position end  sim:/aac2m2h2_tb/DataIn_tb
+add wave -position end  sim:/aac2m2h2_tb/DataOut_tb
+add wave -position end  sim:/aac2m2h2_tb/rden_tb
+add wave -position end  sim:/aac2m2h2_tb/wren_tb
+add wave -position end  sim:/aac2m2h2_tb/simend
+add wave -position end  sim:/aac2m2h2_tb/ValidCheck
+add wave -position end  sim:/aac2m2h2_tb/ROM
+add wave -position end  sim:/aac2m2h2_tb/delay
+add wave -position end  sim:/aac2m2h2_tb/Points
+run -all
+# ** Note: This simulation is complete
+#    Time: 335 ns  Iteration: 0  Instance: /aac2m2h2_tb
+# End time: 05:18:12 on Sep 06,2020, Elapsed time: 0:25:27
+# Errors: 7, Warnings: 0

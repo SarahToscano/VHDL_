@@ -1,0 +1,8 @@
+-- Library
+library ieee;
+use ieee.std_logic_1164.all;
+
+-- Entity
+entity Shift_Reg is port (
+clk, rst, shift, d0 : in std_logic;
+q						  : out std_logic_vector (3 downto 0));
